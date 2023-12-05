@@ -4,8 +4,9 @@ import "bootstrap/dist/css/bootstrap.css";
 
 export default function App({ Component, pageProps }) {
   return (
-    <div dir="rtl">
+    <div dir="rtl" className="container-fluid container-xl">
       <Navbar />
+      <div className="containerMain"></div>
       <Component {...pageProps} />
     </div>
   );

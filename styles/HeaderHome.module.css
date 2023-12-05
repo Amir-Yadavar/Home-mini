@@ -1,0 +1,88 @@
+.containerHeader {
+  padding: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 575px) {
+  .containerHeader {
+    background: url(./../public/img/homepageHeader1.jpg) center no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 576px) {
+  .containerHeader {
+    background: url(./../public/img/homepageHeader1.jpg) center no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and(min-width: 992px) {
+  .containerHeader {
+    background: url(./../public/img/homepageHeader3.jpg) center no-repeat;
+    background-size: cover;
+  }
+}
+
+.contentHeader {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.BtnHeaderHome {
+  background-color: unset;
+  border: none;
+  outline: unset;
+  font-size: 1rem;
+  padding: 10px;
+  font-family: gandom;
+  /* margin: 5px; */
+  width: 90px;
+  /* border-bottom: 1px solid gray; */
+}
+.btnClicked {
+  border-bottom: 1px solid #e4002b;
+  color: #e4002b;
+}
+.BtnHeaderHomeFilter,
+.BtnHeaderHomeSearch {
+  padding: 10px;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  border: none;
+  outline: none;
+  margin: 5px;
+  /* width: 70px; */
+}
+.BtnHeaderHomeSearch {
+  background-color: #e4002b;
+  color: #fff;
+}
+.BtnHeaderHomeFilter {
+  background-color: #fff;
+  border: 1px solid gray;
+  color: grey;
+  width: max-content;
+}
+
+.fontAwsomeSearch {
+  font-size: 1.5rem;
+  padding: 0 5px;
+  color: #000;
+}
+
+.inputSearchHeader {
+  border: none;
+  outline: none;
+  padding: 5px;
+  font-size: 1rem;
+  font-family: gandom;
+}

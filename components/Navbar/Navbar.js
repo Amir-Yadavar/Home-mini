@@ -56,6 +56,9 @@ function Navbar() {
             {/* nav menu item */}
             <div className="d-none d-md-flex flexaround">
               <Link href="/homes" className={styles.navItems}>
+                <span className="p-3">جدید</span>
+              </Link>
+              <Link href="" className={styles.navItems}>
                 <span>خرید</span>
               </Link>
               <Link href={""} className={styles.navItems}>
@@ -94,6 +97,9 @@ function Navbar() {
         >
           <div className={styles.navMobile}>
             <Link href="/homes" className={styles.navItems}>
+              <span className="p-3">جدید</span>
+            </Link>
+            <Link href="" className={styles.navItems}>
               <span className="p-3">خرید</span>
             </Link>
             <Link href={""} className={styles.navItems}>
