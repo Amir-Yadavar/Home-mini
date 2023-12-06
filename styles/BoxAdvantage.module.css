@@ -1,6 +1,28 @@
-.titleBoxAdv{
-    font-size: 1.3rem;
-    color: #000;
-    font-weight: 600;
-    padding: 10px 0;
+.MainBoxAdv {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 0.75rem;
+  margin: 5px;
+  height: 320px;
+}
+.titleBoxAdv {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.paragBox {
+  color: darkgray;
+  text-align: justify;
+}
+
+@media screen and (max-width: 575px) {
+}
+@media screen and (min-width: 576px) {
+}
+@media screen and (min-width: 992px) {
+  .MainBoxAdv {
+    min-width: 30%;
+    max-width: 380px;
+  }
 }

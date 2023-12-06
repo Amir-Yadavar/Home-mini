@@ -4,10 +4,11 @@ import React from "react";
 //https://www.realestate.com.au/buy/
 function HomePage() {
   return (
-    <div>
+    <section>
       <Header />
       <Advantages />
-    </div>
+
+    </section>
   );
 }
 
