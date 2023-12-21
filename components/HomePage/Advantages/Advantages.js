@@ -31,7 +31,7 @@ function Advantages() {
     }
   }
   return (
-    <section className="p-2 my-2">
+    <section className="p-2 my-3">
       <h3 className="titleSection">کاوش در همه چیز ،با اعتماد معامله کنید</h3>
       <div className="d-flex py-2">
         <button className="btnAdvantage" onClick={btnBuyAdvHandler}>خرید</button>
@@ -40,7 +40,7 @@ function Advantages() {
         <button className="btnAdvantage" onClick={btnResearchAdvHandler}>اعتبار سنجی</button>
       </div>
 
-      <section className="d-flex flex-column flex-lg-row justify-content-around align-items-lg-center">
+      <section className="d-flex flex-column flex-lg-row justify-content-between align-items-lg-center">
         {dataAdv.map(data => (
           <BoxAdvantage {...data} key={data.id} />
 
