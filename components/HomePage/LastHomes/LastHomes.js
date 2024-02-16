@@ -4,7 +4,7 @@ import BoxHomeHomePage from '@/modules/BoxHomeHomePage/BoxHomeHomePage'
 
 function LastHomes() {
 
-    const [homes, setHomes] = useState(db.home)
+    const [homes, setHomes] = useState(db.home.slice(-6).reverse())
     return (
         <section className="p-2 my-3">
             <h3 className="titleSection">آخرین آگهی های ثبت شده</h3>
