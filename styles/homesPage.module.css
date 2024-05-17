@@ -1,0 +1,17 @@
+.searchInput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchInput>input {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    transition: .5 all;
+}
+
+.searchInput>input:focus {
+    border: 1px solid #e4002b;
+}

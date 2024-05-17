@@ -76,8 +76,8 @@ function Navbar() {
             <Link href={"/"}>
               <div className="flexbetween">
                 <div className={styles.titleLogo}>خونه مونه</div>
-                <div className={styles.logoNav}>
-                  <div className={styles.logoWhite}>
+                <div className="logoNav">
+                  <div className="logoWhite">
                     <RiHome3Line />
                   </div>
                 </div>
@@ -91,9 +91,8 @@ function Navbar() {
 
       <div>
         <div
-          className={`${styles.navMobileContainer} ${
-            !showNavMenu ? styles.shownavMobile : styles.closenavMobile
-          }`}
+          className={`${styles.navMobileContainer} ${!showNavMenu ? styles.shownavMobile : styles.closenavMobile
+            }`}
         >
           <div className={styles.navMobile}>
             <Link href="/homes" className={styles.navItems}>

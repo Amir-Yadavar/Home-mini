@@ -8,28 +8,7 @@
   padding: 10px;
 }
 
-.logoNav {
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  background-color: #e4002b;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.logoWhite {
-  color: #fff;
-  padding: 5px;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .titleLogo {
   font-family: maktab;
