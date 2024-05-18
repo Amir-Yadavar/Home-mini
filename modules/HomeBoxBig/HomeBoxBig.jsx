@@ -7,9 +7,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaBed } from "react-icons/fa";
 import { IoMdResize } from "react-icons/io";
 
-
-
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -107,20 +104,29 @@ function HomeBoxBig() {
       {/* details */}
       <div className="d-flex align-items-center justify-content-end px-4 mb-2">
         <div className="d-flex align-items-center px-2">
-          <span className={styles.iconsDetail}><FaLocationDot /></span>
+          <span className={styles.iconsDetail}>
+            <FaLocationDot />
+          </span>
           <span>تهران</span>
         </div>
         <div className="d-flex align-items-center px-2">
-          <span className={styles.iconsDetail}><FaBed /></span>
+          <span className={styles.iconsDetail}>
+            <FaBed />
+          </span>
           <span>6</span>
         </div>
         <div className="d-flex align-items-center px-2">
-          <span className={styles.iconsDetail}><IoMdResize /></span>
+          <span className={styles.iconsDetail}>
+            <IoMdResize />
+          </span>
           <span>250</span>
         </div>
       </div>
-       
-      
+
+      {/* date */}
+      <div className="d-flex align-items-center justify-content-end px-4 mb-2">
+        <span className={styles.dateStyle}>1403/02/25</span>
+      </div>
     </div>
   );
 }

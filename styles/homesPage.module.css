@@ -1,7 +1,12 @@
 .searchInput {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0.0625rem 0.25rem 0px;
+    border-radius: 10px;
+    margin: 0px 40px 30px 40px;
+
 }
 
 .searchInput>input {
@@ -12,6 +17,39 @@
     transition: .5 all;
 }
 
+
+.paragTitr {
+    margin-bottom: 0;
+    font-family: maktab;
+    color: gray;
+}
+
 .searchInput>input:focus {
     border: 1px solid #e4002b;
+}
+
+.filterHomes {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0.0625rem 0.25rem 0px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 10px 0;
+    height: max-content;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #222222;
+    border-radius: 10px 10px 0 0;
+}
+
+.titleLogo {
+    font-family: maktab;
+    font-weight: bold;
+    padding: 0 7px;
+    font-size: 1rem;
+    color: whitesmoke;
 }
