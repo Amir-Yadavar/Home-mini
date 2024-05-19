@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination, Navigation } from "swiper/modules";
 
-function HomeBoxBig() {
+function HomeBoxBig(props) {
   const [isIconCheck, setIsIconCheck] = useState(false);
 
   return (
@@ -63,17 +63,17 @@ function HomeBoxBig() {
         >
           <SwiperSlide className={styles.swiperSlide}>
             <figure>
-              <img src="./img/gal-1.jpeg" alt="" className="img-fluid" />
+              <img src={props.img} alt="amir yadavar" className="img-fluid" />
             </figure>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
             <figure>
-              <img src="./img/gal-2.jpeg" alt="" className="img-fluid" />
+              <img src={props.img2} alt="amir yadavar" className="img-fluid" />
             </figure>
           </SwiperSlide>
           <SwiperSlide className={styles.swiperSlide}>
             <figure>
-              <img src="./img/gal-3.jpeg" alt="" className="img-fluid" />
+              <img src={props.img3} alt="amir yadavar" className="img-fluid" />
             </figure>
           </SwiperSlide>
         </Swiper>
@@ -82,7 +82,7 @@ function HomeBoxBig() {
       {/* title */}
 
       <div className="flexbetween p-4 pb-0">
-        <h2 className="titleSection">خانه ویلایی</h2>
+        <h2 className="titleSection">{props.title}</h2>
 
         <span onClick={() => setIsIconCheck(!isIconCheck)}>
           <GoStarFill
@@ -96,8 +96,7 @@ function HomeBoxBig() {
       {/* price */}
       <div className="d-flex justify-content-end align-items-center px-4 mb-2">
         <span className={styles.spanPrice}>
-          {/* {props.price.toLocaleString()} تومان */}
-          20000000 تومان
+          {props.price.toLocaleString()} تومان
         </span>
       </div>
 
@@ -107,25 +106,25 @@ function HomeBoxBig() {
           <span className={styles.iconsDetail}>
             <FaLocationDot />
           </span>
-          <span>تهران</span>
+          <span>{props.location}</span>
         </div>
         <div className="d-flex align-items-center px-2">
           <span className={styles.iconsDetail}>
             <FaBed />
           </span>
-          <span>6</span>
+          <span>{props.roomCount}</span>
         </div>
         <div className="d-flex align-items-center px-2">
           <span className={styles.iconsDetail}>
             <IoMdResize />
           </span>
-          <span>250</span>
+          <span>{props.meterage}</span>
         </div>
       </div>
 
       {/* date */}
       <div className="d-flex align-items-center justify-content-end px-4 mb-2">
-        <span className={styles.dateStyle}>1403/02/25</span>
+        <span className={styles.dateStyle}>{props.date}</span>
       </div>
     </div>
   );
