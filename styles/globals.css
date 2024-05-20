@@ -9,10 +9,12 @@
   font-family: nazanin;
   src: url(./../public/fonts/Nazanin.ttf);
 }
+
 @font-face {
   font-family: gandom;
   src: url(./../public/fonts/Gandom.ttf);
 }
+
 @font-face {
   font-family: maktab;
   src: url(./../public/fonts/Gandom.ttf);
@@ -22,11 +24,13 @@ a {
   text-decoration: none !important;
   color: inherit !important;
 }
+
 .flexbetween {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .flexaround {
   display: flex;
   align-items: center;
@@ -94,4 +98,9 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0.0625rem 0.25rem 0px;
+  border-radius: 10px;
 }

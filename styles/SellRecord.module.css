@@ -1,0 +1,52 @@
+.secSell {
+    width: 100%;
+    height: 50vh;
+    background-image: url("./../public//img/tehran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin: 30px 0;
+    filter: brightness(0.5);
+}
+
+.boxRecord {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.boxRecord>span {
+    color: white;
+    font-weight: bold;
+    font-family: maktab;
+}
+
+.boxRecord>span:nth-of-type(1) {
+    font-size: 3rem;
+}
+
+@media screen and (max-width:575px) {
+    .boxRecord {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .boxRecord {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .boxRecord {
+        width: 200px;
+        height: 200px;
+    }
+}

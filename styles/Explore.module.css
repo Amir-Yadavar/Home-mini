@@ -1,0 +1,45 @@
+.titleLogo {}
+
+.figureExplore {
+    margin: 0;
+}
+
+.btnExplore{
+    background-color: #e4002b;
+    color: #fff;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.paragExplore{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+
+@media screen and (max-width:575px) {
+    .figureExplore>img {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media screen and (min-width:576px) {
+    .figureExplore>img {
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .figureExplore>img {
+        border-radius: 10px 0 0 10px;
+    }
+}

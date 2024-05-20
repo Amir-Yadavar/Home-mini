@@ -8,7 +8,7 @@ function BoxHomeHomePage(props) {
             <div className="m-1">
                 <div className={styles.containerBoxHome}>
                     <figure>
-                        <img src={props.img} alt='amir yadavar' className='img-fluid' />
+                        <img src={props.img} alt='amir yadavar' className='img-fluid' style={{ height: "260px" }} />
                     </figure>
 
                     <div className="p-2">
