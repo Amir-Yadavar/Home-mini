@@ -13,7 +13,7 @@ function Navbar() {
   };
   return (
     <>
-      <div className={styles.NavbarSticky}>
+      <header className={styles.NavbarSticky}>
         <div className="container-xl p-2 ">
           <div className="flexbetween">
             <div className="flexbetween">
@@ -54,7 +54,7 @@ function Navbar() {
             </div>
 
             {/* nav menu item */}
-            <div className="d-none d-md-flex flexaround">
+            <nav className="d-none d-md-flex flexaround">
               <Link href="/homes" className={styles.navItems}>
                 <span className="p-3">جدید</span>
               </Link>
@@ -70,7 +70,8 @@ function Navbar() {
               <Link href={""} className={styles.navItems}>
                 <span>ارتباط با ما</span>
               </Link>
-            </div>
+            </nav>
+
 
             {/* logo */}
             <Link href={"/"}>
@@ -85,7 +86,7 @@ function Navbar() {
             </Link>
           </div>
         </div>
-      </div>
+      </header>
 
       {/* nav item mobile */}
 
