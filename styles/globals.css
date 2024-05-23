@@ -104,3 +104,26 @@ a {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 0.0625rem 0.25rem 0px;
   border-radius: 10px;
 }
+
+.logoNavFooter {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoColorBlue {
+  background-color: blue !important;
+}
+.logoColorGreen {
+  background-color: green !important;
+}
+.logoColorBrown {
+  background-color: brown !important;
+}
