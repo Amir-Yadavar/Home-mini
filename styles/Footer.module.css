@@ -9,17 +9,6 @@
   margin-bottom: 0;
 }
 
-.spanInfo {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: rgb(114, 114, 114);
-}
-
-.spanInfoColor {
-  color: #e4002b;
-  font-size: 0.9rem;
-  font-weight: 700;
-}
 
 .navItems {
   font-family: gandom;
@@ -59,10 +48,10 @@
 
 @media screen and (max-width: 575px) {
   .spanInfo {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .spanInfoColor {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 
   .navItems {

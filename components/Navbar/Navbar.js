@@ -55,7 +55,7 @@ function Navbar() {
 
             {/* nav menu item */}
             <nav className="d-none d-md-flex flexaround">
-              <Link href="/homes" className={styles.navItems}>
+              <Link href={"/homes"} className={styles.navItems}>
                 <span className="p-3">جدید</span>
               </Link>
               <Link href="" className={styles.navItems}>
@@ -67,7 +67,7 @@ function Navbar() {
               <Link href={""} className={styles.navItems}>
                 <span>اجاره</span>
               </Link>
-              <Link href={""} className={styles.navItems}>
+              <Link href={"/connectUs"} className={styles.navItems}>
                 <span>ارتباط با ما</span>
               </Link>
             </nav>
@@ -96,7 +96,7 @@ function Navbar() {
             }`}
         >
           <div className={styles.navMobile}>
-            <Link href="/homes" className={styles.navItems}>
+            <Link href={"/homes"} className={styles.navItems}>
               <span className="p-3">جدید</span>
             </Link>
             <Link href="" className={styles.navItems}>
@@ -108,7 +108,7 @@ function Navbar() {
             <Link href={""} className={styles.navItems}>
               <span className="p-3">اجاره</span>
             </Link>
-            <Link href={""} className={styles.navItems}>
+            <Link href={"/connectUs"} className={styles.navItems}>
               <span className="p-3">ارتباط با ما</span>
             </Link>
           </div>

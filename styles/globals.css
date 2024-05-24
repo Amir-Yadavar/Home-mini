@@ -127,3 +127,46 @@ a {
 .logoColorBrown {
   background-color: brown !important;
 }
+
+.spanInfo {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgb(114, 114, 114);
+}
+
+.spanInfoColor {
+  color: #e4002b;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.address {
+  padding: 25px 0;
+  border-top: 1px solid lightgray;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 575px) {
+  .spanInfo {
+    font-size: 0.7rem;
+  }
+  .spanInfoColor {
+    font-size: 0.7rem;
+  }
+
+  .navItems {
+    font-size: 0.6rem;
+  }
+}

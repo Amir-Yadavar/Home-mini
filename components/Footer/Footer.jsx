@@ -9,16 +9,16 @@ function Footer() {
       <div className="container">
         <div className="d-flex align-items-center justify-content-around  py-2">
           <div className="d-flex align-items-center mx-1">
-            <span className={styles.spanInfoColor}>تلفن : </span>
-            <span className={styles.spanInfo}>۰۲۱-۱۲۱۲۱۳۱۱</span>
+            <span className="spanInfoColor">تلفن : </span>
+            <span className="spanInfo">۰۲۱-۱۲۱۲۱۳۱۱</span>
           </div>
           <div className="d-flex align-items-center mx-1">
-            <span className={styles.spanInfoColor}>همراه : </span>
-            <span className={styles.spanInfo}>۰۹۱۹-۸۱۱۸۵۷۳</span>
+            <span className="spanInfoColor">همراه : </span>
+            <span className="spanInfo">۰۹۱۹-۸۱۱۸۵۷۳</span>
           </div>
           <div className="d-flex align-items-center mx-1">
-            <span className={styles.spanInfoColor}>ایمیل : </span>
-            <span className={styles.spanInfo}>amiresya@gmail.com</span>
+            <span className="spanInfoColor">ایمیل : </span>
+            <span className="spanInfo">amiresya@gmail.com</span>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ function Footer() {
         </p>
 
         <div className="d-flex align-items-center">
-          <span className={styles.spanInfoColor}>لینک های مفید :</span>
+          <span className="spanInfoColor">لینک های مفید :</span>
           {/* nav menu item */}
           <nav className="flexaround">
             <Link href="/homes" className={styles.navItems}>
