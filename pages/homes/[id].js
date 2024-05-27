@@ -58,18 +58,51 @@ function HomeMainDetail() {
             <div className="d-flex justify-content-center align-items-center px-5">
               <div className={styles.divInfo}>
                 <span>متراژ</span>
-                <span>۱۱۰</span>
+                <span>{findHome.meterage}</span>
               </div>
               <div className={styles.yearBuild}>
                 <span>ساخت</span>
-                <span>۱۱۰</span>
+                <span>?</span>
               </div>
               <div className={styles.divInfo}>
                 <span>اتاق</span>
-                <span>۱۱۰</span>
+                <span>{findHome.roomCount}</span>
               </div>
             </div>
-            <h3>{findHome.price}</h3>
+
+            <div className="d-flex flex-column my-4">
+              <div className={styles.priceHome}>
+                <span>قیمت کل</span>
+                <span>{findHome.price.toLocaleString()}</span>
+              </div>
+              <div className={styles.priceHome}>
+                <span>املاک</span>
+                <span>خونه مونه</span>
+              </div>
+              <div className={styles.priceHome}>
+                <span>مشاور</span>
+                <span>امیر یادآور</span>
+              </div>
+            </div>
+
+            <div className="my-1">
+              <h3 className={styles.possibility}>ویژگی ها و امکانات</h3>
+
+              <div className="d-flex justify-content-center align-items-center px-5">
+              <div className={styles.divInfo}>
+                <span>متراژ</span>
+                <span>آسانسور</span>
+              </div>
+              <div className={styles.yearBuild}>
+                <span>ساخت</span>
+                <span>پارکینگ</span>
+              </div>
+              <div className={styles.divInfo}>
+                <span>اتاق</span>
+                <span>انباری</span>
+              </div>
+            </div>
+            </div>
           </div>
         </div>
         <div className="col-12 col-xl-6 p-2">
