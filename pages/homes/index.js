@@ -10,12 +10,12 @@ function AllHome() {
     const [homes, setHomes] = useState([...db.home])
     const [inputValue, setinputValue] = useState("")
 
-
+    
 
     // search home
     useEffect(() => {
         let filterHome = db.home.filter(home => home.title.includes(inputValue))
-        setHomes(filterHome)
+        setHomes(filterHome.reverse())
     }, [inputValue])
 
     //    inputSearchHandler
