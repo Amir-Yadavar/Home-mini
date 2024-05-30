@@ -52,7 +52,7 @@
 
 .btnNavRed {
   background-color: #e4002b;
-  color: #fff;
+  color: #fff!important;
   border-radius: 12px;
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;

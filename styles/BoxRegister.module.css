@@ -1,0 +1,87 @@
+.container {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 0 20px -10px #3c3c3ca3;
+  padding: 25px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerLogo {
+  width: fit-content;
+  padding: 10px;
+}
+
+.titleLogo {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding:  10px;
+}
+.title{
+    padding: 10px;
+    font-weight: bold;
+}
+.text{
+
+    padding: 10px;
+    font-weight: 100;
+    font-size: .9rem;
+    color:#5b5b5b;
+}
+
+.textRed{
+    padding: 10px 5px;
+    font-weight: 100;
+    font-size: .9rem;
+    color:#e4022b!important;
+}
+
+.label{
+    padding:5px 10px;
+    margin: 5px;
+    font-weight: 100;
+    font-size: .9rem;
+    color:#5b5b5b;
+}
+.input{
+    padding: 15px;
+    margin: 5px;
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+
+.input:focus{
+    border: 1px solid #e4022b;
+}
+.submit{
+    padding: 15px;
+    margin: 5px;
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #e4022b;
+    color: white;
+}
+
+.btnSocial{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    border: .5px solid gray;
+    border-radius: 7px;
+    width: 350px;
+    cursor: pointer;
+}
+
+.btnSocial>span:nth-of-type(2){
+    width: 80%;
+    text-align: center;
+}

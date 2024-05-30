@@ -46,10 +46,10 @@ function Navbar() {
 
               {/* btn for sing up */}
               <div className="flexaround">
-                <button className={`${styles.btnNav} ${styles.btnNavRed}`}>
+                <Link href={"/register"} className={`${styles.btnNav} ${styles.btnNavRed}`}>
                   ثبت نام
-                </button>
-                <button className={styles.btnNav}>ورود</button>
+                </Link>
+                <Link href={"/login"} className={styles.btnNav}>ورود</Link>
               </div>
             </div>
 

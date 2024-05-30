@@ -158,6 +158,12 @@ input[type="number"] {
   -moz-appearance: textfield;
 }
 
+
+.container-boxRegister{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media screen and (max-width: 575px) {
   .spanInfo {
     font-size: 0.7rem;
