@@ -58,7 +58,7 @@ function Navbar() {
               <Link href={"/homes"} className={styles.navItems}>
                 <span className="p-3">جدید</span>
               </Link>
-              <Link href="" className={styles.navItems}>
+              <Link href={"/buy"} className={styles.navItems}>
                 <span>خرید</span>
               </Link>
               <Link href={""} className={styles.navItems}>
