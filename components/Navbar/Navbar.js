@@ -64,7 +64,7 @@ function Navbar() {
               <Link href={""} className={styles.navItems}>
                 <span>فروش</span>
               </Link>
-              <Link href={""} className={styles.navItems}>
+              <Link href={"/rent"} className={styles.navItems}>
                 <span>اجاره</span>
               </Link>
               <Link href={"/connectUs"} className={styles.navItems}>

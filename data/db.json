@@ -3,7 +3,7 @@
     {
       "id": 1,
       "location":"تهران",
-      "title": "خانه ویلایی",
+      "title": "خانه ویلایی - (اجاره)",
       "img": "/img/house-1/house1-1.jpeg",
       "img2": "/img/house-1/house1-2.jpeg",
       "img3": "/img/house-1/house1-3.jpeg",
@@ -18,7 +18,7 @@
     {
       "id": 2,
       "location":"تهران",
-      "title": "خانه فروشی",
+      "title": "خانه فروشی - (فروش)",
       "img": "/img/house-2/house2-1.jpeg",
       "img2": "/img/house-2/house2-2.jpeg",
       "img3": "/img/house-2/house2-3.jpeg",
@@ -33,7 +33,7 @@
     {
       "id": 3,
       "location":"تهران",
-      "title": "خانه اجاره‌ای",
+      "title": "خانه اجاره‌ای - (اجاره)",
       "img": "/img/house-3/house3-1.jpeg",
       "img2": "/img/house-3/house3-2.jpeg",
       "img3": "/img/house-3/house3-3.jpeg",
@@ -48,7 +48,7 @@
     {
       "id": 4,
       "location":"تهران",
-      "title": "سوییت",
+      "title": "سوییت - (فروش)",
       "img": "/img/house-4/house4-1.jpeg",
       "img2": "/img/house-4/house4-2.jpeg",
       "img3": "/img/house-4/house4-3.jpeg",
@@ -63,7 +63,7 @@
     {
       "id": 5,
       "location":"تهران",
-      "title": "باغ",
+      "title": "باغ - (اجاره)",
       "img": "/img/house-5/house5-1.jpeg",
       "img2": "/img/house-5/house5-2.jpeg",
       "img3": "/img/house-5/house5-3.jpeg",
@@ -78,7 +78,7 @@
     {
       "id": 6,
       "location":"تهران",
-      "title": "واحد آپارتمان",
+      "title": "واحد آپارتمان - (فروش)",
       "img": "/img/house-6/house6-1.jpeg",
       "img2": "/img/house-6/house6-2.jpeg",
       "img3": "/img/house-6/house6-3.jpeg",
@@ -93,7 +93,7 @@
     {
       "id": 7,
       "location":"تهران",
-      "title": "خانه ویلایی",
+      "title": "خانه ویلایی - (اجاره)",
       "img": "/img/house-7/house7-1.jpeg",
       "img2": "/img/house-7/house7-2.jpeg",
       "img3": "/img/house-7/house7-3.jpeg",
@@ -108,7 +108,7 @@
     {
       "id": 8,
       "location":"تهران",
-      "title": "خانه اجاره‌ای",
+      "title": "خانه اجاره‌ای - (اجاره)",
       "img": "/img/house-8/house8-1.jpg",
       "img2": "/img/house-8/house8-2.jpg",
       "img3": "/img/house-8/house8-3.jpg",
