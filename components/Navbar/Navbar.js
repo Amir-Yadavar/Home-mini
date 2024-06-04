@@ -61,7 +61,7 @@ function Navbar() {
               <Link href={"/buy"} className={styles.navItems}>
                 <span>خرید</span>
               </Link>
-              <Link href={""} className={styles.navItems}>
+              <Link href={"/sell"} className={styles.navItems}>
                 <span>فروش</span>
               </Link>
               <Link href={"/rent"} className={styles.navItems}>
