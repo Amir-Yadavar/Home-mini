@@ -48,7 +48,7 @@ function Sell() {
 
                         <div className="col-12 col-lg-6 p-2 d-flex align-items-center">
                             <figure className={styles.figure}>
-                                <img src="./img/connectUs.png" alt="connect-Us" className='img-fluid' />
+                                <img src="/img/sellRoute.jpg" alt="connect-Us" className='img-fluid' />
                             </figure>
                         </div>
                     </div>

@@ -35,7 +35,7 @@ function HomeMainDetail() {
       {findHome ? (
         <>
           <div className='container'>
-            <div className="row">
+            <div className="row py-4">
               <div className="col-12 col-xl-6 d-flex justify-content-center p-2">
                 <div className={styles.containerInfo}>
                   <h1 className={styles.title}>{findHome.title}</h1>
